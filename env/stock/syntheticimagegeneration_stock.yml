@@ -1,0 +1,18 @@
+name: syntheticimagegeneration_stock
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.21.2
+  - python=3.9.7
+  - pip
+  - pip:
+    - tqdm==4.64.1
+    - matplotlib==3.6.3
+    - scikit-learn==1.2.0
+    - opencv-python==4.7.0.68
+    - keras==2.8.0
+    - pandas==1.4.2
+    - protobuf==3.19.6
+    - tensorflow==2.8.0
+    - imageio==2.23.0
